@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: slategrey;
+    }
+
+    .logo {
+        padding-top: 50px;
+        margin-left: 150px;
+        font-size: 40px;
+
+        color: red;
+
+    }
+
+    .navb {
+        border: none;
+        margin-right: 250px;
+        border-radius: 5px;
+        padding: 8px;
+        width: 80px;
+        background-color: red;
+        color: white;
+        float: right;
+        margin-top: -40px;
+    }
+
+    .container {
+        margin: auto;
+        margin-top: 200px;
+        color: white;
+    }
+
+    .inp {
+        height: 40px;
+        width: 300px;
+        border-radius: 5px;
+        margin-bottom: 30px;
+    }
+
+    .btn {
+        margin: px;
+        border: none;
+        border-radius: 5px;
+        font-size: 20px;
+        height: 50px;
+        width: 150px;
+        background-color: red;
+    }
+
+    .hero {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(/Netflix-Background-prueba-1-1536x864.jpg);
+    }
+
+    .hero2 {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        display: flex;
+        margin-top: 10px;
+        height: 500px;
+    }
+
+    .enjoy {
+        font-size: 25px;
+        margin: 20px;
+        padding-top: 130px;
+        padding-left: 40px;
+        width: 600px;
+        height: 500px;
+    }
+
+    .enjoy1 {
+        width: 400px;
+        height: 500px;
+    }
+
+    .img1 {
+        margin-top: 80px;
+        margin-left: 100px;
+        height: 300px;
+    }
+
+    .hero3 {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        display: flex;
+        margin-top: 10px;
+        height: 500px;
+    }
+
+    .enjoy3 {
+        font-size: 25px;
+        margin-left: 250px;
+        margin-top: 40px;
+        padding-left: 40px;
+        width: 400px;
+        height: 400px;
+    }
+
+    .enjoy2 {
+
+        width: 400px;
+        height: 500px;
+    }
+
+    .img2 {
+        margin-top: 80px;
+        margin-left: 120px;
+        height: 300px;
+        width: 400px;
+    }
+
+    .hero4 {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        display: flex;
+        margin-top: 10px;
+        height: 500px;
+    }
+
+    .enjoy4 {
+        font-size: 25px;
+        margin-left: 150px;
+        margin-top: 60px;
+        padding-left: 40px;
+        width: 300px;
+        height: 400px;
+    }
+
+    .hero5 {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        display: flex;
+        margin-top: 10px;
+        height: 500px;
+    }
+
+    .enjoy6 {
+        font-size: 25px;
+        margin-left: 150px;
+        margin-top: 80px;
+        padding-left: 40px;
+        width: 400px;
+        height: 400px;
+    }
+
+    .img3 {
+        margin-top: 100px;
+        margin-left: 120px;
+        height: 300px;
+        width: 400px;
+    }
+
+    .hero6 {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        margin-top: 10px;
+        height: 700px;
+        padding-top: 20px;
+    }
+
+    .inp1 {
+        width: 500px;
+        height: 50px;
+        margin: 10px;
+        background-color: slategray;
+        margin-left: 400px;
+
+    }
+
+    .btn0 {
+        float: right;
+        font-size: 30px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .inp2 {
+        font-size: 30px;
+    }
+
+    .hero7 {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        margin-top: 10px;
+        height: 750px;
+        padding-top: 20px;
+    }
+
+    table {
+        border: none;
+        margin-left: 200px;
+        text-decoration: underline;
+    }
+
+    td {
+        border: none;
+    }
+
+    @media only screen and (max-width: 768px) {
+
+        /* Styles for tablets and mobile devices */
+        .logo {
+            margin-left: 20px;
+        }
+
+        .navb {
+            margin-right: 20px;
+        }
+
+        .container {
+            margin-top: 100px;
+        }
+
+        .inp {
+            width: 250px;
+        }
+
+        .hero {
+            background-size: cover;
+        }
+
+        .enjoy {
+            width: 250px;
+            height: 400px;
+            padding-top: 80px;
+            padding-left: 20px;
+        }
+
+        .enjoy1,
+        .enjoy2,
+        .enjoy3,
+        .enjoy4,
+        .enjoy5 {
+            display: none;
+        }
+
+        .img1,
+        .img2,
+        .img3 {
+            display: none;
+        }
+
+        .footer {
+            padding: 20px;
+        }
+    }
+</style>
+
+<body>
+    <div class="hero">
+        <nav class="logo">
+            <b> NETFLIX </b>
+        </nav>
+        <button class="navb">signin</button>
+        <div class="container">
+            <center>
+                <h1>Unlimited movies, TV shows, and more</h1>
+                <br><br>
+                <h3>Watch anywhere. Cancel anytime.</h3>
+                <br><br>
+                <h5>Ready to watch? Enter your email to create or restart your membership.</h5>
+            </center>
+        </div>
+        <center>
+            <input type="text" name="" id="" class="inp" placeholder=" Email Address">
+            <button class="btn">Get Started ></button>
+        </center>
+    </div>
+    <div class="hero2">
+        <div class="enjoy">
+            <h1>Enjoy on your TV</h1>
+            <h3>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</h3>
+        </div>
+        <div class="enjoy1">
+            <img src="/images.jfif" alt="" class="img1">
+        </div>
+    </div>
+    <div class="hero3">
+        <div class="enjoy2">
+            <img src="/jpg.webp" alt="" class="img2">
+        </div>
+        <div class="enjoy3">
+            <h1>Download your shows to watch offline</h1>
+            <h3>Save your favorites easily and always have something to watch.</h3>
+        </div>
+
+    </div>
+    <div class="hero4">
+        <div class="enjoy4">
+            <h1>watch everywhere</h1>
+            <h3>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h3>
+        </div>
+
+    </div>
+    <div class="hero5">
+        <div class="enjoy5">
+            <img src="/images (1).jfif" alt="" class="img3">
+        </div>
+        <div class="enjoy6">
+            <h1>Create profiles for kids</h1>
+            <h3>Send kids on adventures with their favorite characters in a space made just for them—free with your
+                membership.</h3>
+        </div>
+
+    </div>
+    <div class="hero6">
+        <center>
+            <h1>Frequently Asked Questions</h1>
+        </center>
+        <div class="inp1">
+            <p class="inp2">What is Netflix?<button class="btn0">+</button></p>
+        </div>
+        <div class="inp1">
+            <p class="inp2">How does much Netflix Cost?<button class="btn0">+</button></p>
+        </div>
+        <div class="inp1">
+            <p class="inp2">Where can i watch?<button class="btn0">+</button></p>
+        </div>
+        <div class="inp1">
+            <p class="inp2">How do i cancel?<button class="btn0">+</button></p>
+        </div>
+        <div class="inp1">
+            <p class="inp2">What can i watch on Netflix?<button class="btn0">+</button></p>
+        </div>
+        <div class="inp1">
+            <p class="inp2">Is Netflix good for kids?<button class="btn0">+</button></p>
+        </div>
+
+        <center>
+            <h1>Ready to watch? Enter your email to create or restart your membership.</h1>
+            <input type="text" name="" id="" class="inp" placeholder=" Email Address">
+            <button class="btn">Get Started ></button>
+        </center>
+    </div>
+    <div class="hero7">
+        <h6 style="font-size: 15px;margin-left: 240px;margin-top: 60px; text-decoration-line: underline;">
+            Question?Contactus</h6>
+        <table border="none" cellspacing="" cellpadding="40">
+            <tr>
+                <td>FAQ</td>
+                <td>Help centre</td>
+                <td>Account</td>
+            </tr>
+            <tr>
+                <td>Media centre</td>
+                <td>Investor Relations</td>
+                <td>jobs</td>
+            </tr>
+            <tr>
+                <td>Ways to Watch</td>
+                <td>Terms of Use</td>
+                <td>Privacy</td>
+            </tr>
+            <tr>
+                <td>Cookie Preferences</td>
+                <td>Corporate Information</td>
+                <td>Contact Us</td>
+            </tr>
+            <tr>
+                <td>Speed Test</td>
+                <td>Legal Notices</td>
+                <td>Only on Netflix</td>
+            </tr>
+        </table>
+        <button style="font-size: 20px; margin-left: 240px;">English-</button>
+        <h5 style="font-size: 10px; margin-left: 240px;"> Netflix pakistan</h5>
+    </div>
+
+</body>
+
+</html>
